@@ -14,7 +14,7 @@ Building from source
 
   Build on Debian/Ubuntu:
 
-  Install dependencies
+  Install dependencies:
   ```
   sudo apt install libwebp-dev libgdk-pixbuf2.0-dev libgtk-3-dev meson build-essential
   ```
