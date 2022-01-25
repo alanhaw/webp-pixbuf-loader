@@ -13,6 +13,11 @@ Building from source
   ```
 
   Build on Debian/Ubuntu:
+
+  install dependencies
+  ```
+  sudo apt install libwebp-dev libgdk-pixbuf2.0-dev libgtk-3-dev meson build-essential
+  ```
   ```
   meson builddir -Dgdk_pixbuf_query_loaders_path=/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders
   ninja -C builddir
